@@ -1,0 +1,130 @@
+<!--Footer Section Start-->
+<footer id="footer" class="footer-one">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col-lg-4 footer-logo">
+                <a href="index.html"> <img src="uploads/logo/<?php echo $ayar->firma_logo; ?>" style="width:70%" alt="logo-footer"></a>
+            </div>
+            <div class="col-xs-12 col-sm-9 col-lg-8 footer-menu pull-right">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 contact-wrap-header">
+                            <a href="tel:<?php echo $ayar->firma_tel; ?>" class="call-us">
+                                <span class="glyph-item mega" aria-hidden="true" data-icon="" data-js-prompt="&amp;#xe010;"></span>
+                                <span class="call-us-content"><span>Telefon Numaramız</span> <?php echo $ayar->firma_tel; ?></span>
+                            </a>
+                            <a href="mailto:<?php echo $ayar->firma_email; ?>" class="mail-to">
+                                <span class="glyph-item mega" aria-hidden="true" data-icon="" data-js-prompt="&amp;#xe01f;"></span>
+                                <span class="mail-to-content"><span>E-Posta Adresimiz</span> <?php echo $ayar->firma_email; ?></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <ul class="footer-media clearfix">
+                    <li>
+                        <a href="<?php echo $ayar->facebook; ?>"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="<?php echo $ayar->twitter; ?>"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="<?php echo $ayar->instagram; ?>"><i class="fa fa-instagram"></i></a>
+                    </li>
+                </ul>
+                <span class="licence-label"><?php echo $ayar->copyright; ?> </span>
+                <div class="supporters clearfix">
+                    <ul>
+                        <li>
+                            <a href="http://www.ekonomi.gov.tr/" target="_blank">
+                            <img src="uploads/logo/ekonomi-bakanligi-logo.png" alt="T.C. Ekonomi Bakanlığı">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.turkeydiscoverthepotential.com/tr" target="_blank">
+                                <img src="uploads/logo/turkey-130w.png" alt="Turkey Discover the Potential">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.ihkib.org.tr/tr" target="_blank">
+                                <img src="uploads/logo/TIM_LOGO_TR.png" alt="İHKİB">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--Footer Section End-->
+</div>
+    <!--Page Wrapper End-->
+    <script type="text/javascript" src="assets/js/sweet-alert.min.js"></script>
+	<script type="text/javascript" src="assets/js/toastr.min.js"></script>	
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/less.js"></script>
+    <!-- revolution Js -->
+    <script type="text/javascript" src="assets/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.revolution.js"></script>
+    <!-- revolution Js -->
+    <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+    <script type="text/javascript" src="assets/js/site.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- Switcher Js -->
+    <script src="assets/js/theme-option/style-switcher/assets/js/style.switcher.js"></script>
+    <script src="assets/js/theme-option/style-switcher/assets/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="assets/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="assets/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="assets/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="assets/extensions/revolution.extension.parallax.min.js"></script>
+    <!-- Switcher Js -->
+	<script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.flexslider.js"></script>
+	
+	<script>
+		$('#main-slider').flexslider({
+			namespace           : "flex-",           //{NEW} String: Prefix string attached to the class of every element generated by the plugin
+			selector            : ".slides > li",    //{NEW} Selector: Must match a simple pattern. '{container} > {slide}' -- Ignore pattern at your own peril
+			animation           : "fade",            //String: Select your animation type, "fade" or "slide"
+			easing              : "swing",           //{NEW} String: Determines the easing method used in jQuery transitions. jQuery easing plugin is supported!
+			direction           : "horizontal",      //String: Select the sliding direction, "horizontal" or "vertical"
+			reverse             : false,             //{NEW} Boolean: Reverse the animation direction
+			animationLoop       : true,              //Boolean: Should the animation loop? If false, directionNav will received "disable" classes at either end
+			smoothHeight        : false,             //{NEW} Boolean: Allow height of the slider to animate smoothly in horizontal mode
+			startAt             : 0,                 //Integer: The slide that the slider should start on. Array notation (0 = first slide)
+			slideshow           : true,              //Boolean: Animate slider automatically
+			slideshowSpeed      : 30000,              //Integer: Set the speed of the slideshow cycling, in milliseconds
+			animationSpeed      : 1000,               //Integer: Set the speed of animations, in milliseconds
+			initDelay           : 0,                 //{NEW} Integer: Set an initialization delay, in milliseconds
+			randomize           : false,             //Boolean: Randomize slide order
+
+			// Usability features
+			pauseOnAction       : true,              //Boolean: Pause the slideshow when interacting with control elements, highly recommended.
+			pauseOnHover        : false,             //Boolean: Pause the slideshow when hovering over slider, then resume when no longer hovering
+			useCSS              : true,              //{NEW} Boolean: Slider will use CSS3 transitions if available
+			touch               : true,              //{NEW} Boolean: Allow touch swipe navigation of the slider on touch-enabled devices
+			video               : true,             //{NEW} Boolean: If using video in the slider, will prevent CSS3 3D Transforms to avoid graphical glitches
+
+			// Primary Controls
+			controlNav          : true,              //Boolean: Create navigation for paging control of each clide? Note: Leave true for manualControls usage
+			directionNav        : true,              //Boolean: Create navigation for previous/next navigation? (true/false)
+			prevText            : "Geri",        //String: Set the text for the "previous" directionNav item
+			nextText            : "İleri",            //String: Set the text for the "next" directionNav item
+
+			// Secondary Navigation
+			keyboard            : true,              //Boolean: Allow slider navigating via keyboard left/right keys
+			multipleKeyboard    : false,             //{NEW} Boolean: Allow keyboard navigation to affect multiple sliders. Default behavior cuts out keyboard navigation with more than one slider present.
+			mousewheel          : false,             //{UPDATED} Boolean: Requires jquery.mousewheel.js (https://github.com/brandonaaron/jquery-mousewheel) - Allows slider navigating via mousewheel
+			pausePlay           : false,             //Boolean: Create pause/play dynamic element
+			pauseText           : 'Duraklat',           //String: Set the text for the "pause" pausePlay item
+			playText            : 'Oynat',            //String: Set the text for the "play" pausePlay item
+
+			// Special properties
+			controlsContainer   : "",                //{UPDATED} Selector: USE CLASS SELECTOR. Declare which container the navigation elements should be appended too. Default container is the FlexSlider element. Example use would be ".flexslider-container". Property is ignored if given element is not found.
+			manualControls      : "",                //Selector: Declare custom control navigation. Examples would be ".flex-control-nav li" or "#tabs-nav li img", etc. The number of elements in your controlNav should match the number of slides/tabs.
+			sync                : "",                //{NEW} Selector: Mirror the actions performed on this slider with another slider. Use with care.
+			asNavFor            : "",                //{NEW} Selector: Internal property exposed for turning the slider into a thumbnail navigation for another slider
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+/*!
+ * Theme v1.0.0 
+ * Copyright 2015-2016 theemon.com
+ */
+@skinColor:#ffaf36; //Change here your theme Color
+@fontFamily:'Raleway', sans-serif; //Change here your theme Font family
+
+.transition_effect{
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+//===============================================
+//====================TEXT COLOR==================
+.header-three .icon-call-out,.header-three .calling:hover,.header-three .navbar-default .navbar-nav > li.active > a, 
+.navbar-default .navbar-nav > li.active > a,.header-three .navbar-default .navbar-nav > li > a:hover, .header-three .calling:hover,.foot-contact-form .btn-submit,.footer-two .foot-nav li i,.trans-btn, button.trans-btn,a.blog-read-btn,.blog-paging-list li.active a,.blog-paging-list li:hover a,.commenter-info-1 span,a.comm-back-btn i,.blog-list-sidebar li i,.blog-list-sidebar li .news-recent-content strong,a.blog-sidebar-read-btn,.tags .tag-list li a,.blog-sidebar-paging-list li.active a,.contact-call .icon-call-out,.canada-wrap strong,.home-header-one .read-more,.home-header-one .blog-caption span,.home-header-one .read-more,.homepage3 .social-lead li a span,.header-one .call-us .mega, .header-one .mail-to .mega,.testimonial-page button.btn-submit,.blog-list-sidebar li a:hover,.blog-list-sidebar li .news-recent-content a:hover span,.blog-sidebar-admin-content a:hover,.blog-sidebar-paging-list li a:hover,.blog-side-admin-content a:hover,.blog-admin-content a:hover,.header-two .contact-wrap-header a span{
+  color:@skinColor; .transition_effect;
+}
+
+//============================================================
+//==========================BACKGROUND COLOR==================
+.owl-page.active,.content-not_found span,.triangle-date,button.sub-search-blog,a.apply-btn,.label-count,.homepage-one-banner .more-btn,.homepage-one-banner .tp-bullet.selected,.home-header-one .owl-page.active,.banner-one .contact-form,.homepage3 .social-lead li a,.tp-mask-wrap .tp-caption.first-label,.btn:hover,.footer-two .footer-social-links li a:hover,.blog-read-btn:hover,.testimonial-page button.btn-submit:hover,.blog-sidebar-read-btn:hover,.tags .tag-list li:hover{
+  background:@skinColor !important; 
+}
+.banner-one .form-control{
+   background-color:@skinColor;
+}
+.more-info-link,.media-wrap{
+  background:fade(@skinColor, 80%);
+}
+//============================================================
+//==========================BORDER COLOR==================
+.foot-contact-form .btn-submit,.trans-btn, button.trans-btn,a.blog-read-btn,.blog-paging-list li.active a,.blog-paging-list li:hover a,.publishing-inner-content p,a.comm-back-btn,a.blog-sidebar-read-btn,.tags .tag-list li,.blog-sidebar-paging-list li.active a,.publishing-side-inner-content p,a.contact-btn,.home-header-one .read-more,.home-header-one .blog-comment-info ul li,.home-header-one .read-more,.blog-comment-info ul li,.testimonial-page button.btn-submit,.blog-sidebar-paging-list li a:hover{
+  border-color:@skinColor; .transition_effect;
+}
+.banner-one .form-control{
+  border-color:darken(@skinColor, 10%);
+}
+//============================================================
+//==========================SVG COLOR==================
+.service-page-wrap:hover .fill{
+  fill:@skinColor; .transition_effect;
+}
+.triangle-fill{
+  fill:@skinColor;
+}
