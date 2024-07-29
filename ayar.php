@@ -23,7 +23,7 @@
 	if($public) {
 		define('DB_HOST', "localhost");
 		define('DB_USER', "mesut");
-		define('DB_PASSWORD', "Kql37o1$");
+		define('DB_PASSWORD', "");
 		define('DB_NAME', "yarisma");
 	} else {
 		define('DB_HOST', "localhost");
